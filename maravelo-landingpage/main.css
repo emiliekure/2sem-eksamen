@@ -288,16 +288,12 @@ form p a:hover {
     height: fit-content;
 }
 
+#stemning {
+    height: 100%;
+}
+
 #stemning img {
-    width: 75%;
-}
-
-#stemning1 {
-    margin-bottom: -32px;
-}
-
-#stemning2 {
-    margin-top: -32px;
+    width: 100%;
 }
 
 #kontakt {
