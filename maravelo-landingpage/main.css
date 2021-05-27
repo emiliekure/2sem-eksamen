@@ -13,11 +13,16 @@ h1 {
 }
 
 h2 {
-    font: italic normal 700 36px/1.5 abril-text, serif;
+    font: normal normal 700 48px/1.5 abril-text, serif;
     margin-bottom: 24px;
 }
 
 h3 {
+    font: italic normal 700 36px/1.5 abril-text, serif;
+    margin-bottom: 24px;
+}
+
+h4 {
     font: normal normal 400 24px/1.5 abril-text, serif;
     margin-bottom: 24px;
 }
@@ -82,16 +87,16 @@ button {
     margin-top: 24px;
 }
 
-button a {
+a {
     text-decoration: none;
     color: #0e0f0a;
 }
 
-button a:hover {
+a:hover {
     color: #0e0f0a;
 }
 
-button a i {
+a i {
     margin-right: 12px;
 }
 
@@ -130,14 +135,14 @@ button a i {
     border-radius: 30px;
 }
 
-#hjem #banner button a,
-#cyklen button a {
+#hjem #banner a,
+#cyklen a {
     text-decoration: none;
     color: #0e0f0a;
 }
 
-#hjem #banner button a:hover,
-#cyklen button a:hover {
+#hjem #banner a:hover,
+#cyklen a:hover {
     color: #0e0f0a;
 }
 
@@ -156,6 +161,7 @@ button a i {
 
 #hjem #video iframe {
     display: block;
+    border: 0;
     position: absolute;
     top: 0;
     left: 0;
